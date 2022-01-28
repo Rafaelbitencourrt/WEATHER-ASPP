@@ -4,7 +4,8 @@ body {
   align-items: CENTER;
   height: 100vh;
   margin: 0;
-  background: #222;
+  background-image: url(https://images.unsplash.com/photo-1505118380757-91f5f5632de0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG5hdHVyZSUyMGJhY2tncm91bmQlMjB3YXRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+  max-width: 100%;
   font-family: "Open Sans", sans-serif;
 }
 

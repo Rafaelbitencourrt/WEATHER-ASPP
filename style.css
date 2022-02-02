@@ -1,15 +1,21 @@
 body {
-  display: flex;
-  justify-content: CENTER;
-  align-items: CENTER;
-  height: 100vh;
   margin: 0;
-  background-image: url("https://images.unsplash.com/photos/random?nature");
   font-family: "Open Sans", sans-serif;
 }
 
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://source.unsplash.com/random/?landscape);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
-  background: #eaeaea;
+  background: #000000d0;
+  color: wheat;
   padding: 2em;
   border-radius: 30px;
   max-width: 420px;

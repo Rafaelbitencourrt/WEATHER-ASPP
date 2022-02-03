@@ -35,10 +35,6 @@ button {
   transition: 0.2s ease-in-out;
 }
 
-button:hover {
-  background: #7c7c7c2b;
-}
-
 input.search-bar {
   border: none;
   outline: none;
@@ -48,4 +44,9 @@ input.search-bar {
   color: white;
   font-family: inherit;
   font-size: 120%;
+  width: calc(100% - 100px);
+}
+
+button:hover {
+  background: #7c7c7c6b;
 }

@@ -28,6 +28,15 @@ h1.temp {
   margin: 0px;
 }
 
+.description {
+  text-transform: capitalize;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
 button {
   margin: 0.5em;
   border-radius: 50%;

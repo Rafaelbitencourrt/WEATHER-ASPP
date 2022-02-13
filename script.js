@@ -12,7 +12,7 @@ let weather = {
   },
   displayWeather: function (data) {
     const { name } = data;
-    const { icon, description } = data.weather;
+    const { icon, description } = data.weather[0];
     const { temp, humidity } = data.main;
     const { speed } = data.wind;
     console.log(name, icon, description, temp, humidity, speed);
@@ -25,4 +25,12 @@ let weather = {
     document.querySelector(".wind").innerText =
       "Velocidade do tempo" + speed + "km/h";
   },
+
+  search: function () {
+    this.fecthWeather(document.querySelector(".search-bar").value);
+  },
 };
+
+document.querySelector(".search button").addEventListener("click", function () {
+  weather.search();
+});
